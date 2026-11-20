@@ -25,7 +25,7 @@
 > - Editing system files incorrectly can cause a bootloop. Follow the steps in order, exactly as written.
 
 > [!IMPORTANT]
-> This guide was tested on a **Lava Tab S91 running the October security patch**. File paths, package names, and table structures may differ on other security patch levels or firmware builds. Tread carefully — verify each step's output against your own device before proceeding to the next.
+> This guide was tested on a **Lava Tab S91 running the October 2026 security patch**. File paths, package names, and table structures may differ on other security patch levels or firmware builds. Tread carefully — verify each step's output against your own device before proceeding to the next.
 
 > [!CAUTION]
 > **Disclaimer:** I take no responsibility for anything that happens to your device while following this guide — including bootloops, data loss, or a hard brick. You are following these steps entirely at your own risk and on your own judgment.
@@ -79,11 +79,11 @@ Download and run **DirtyFrag** on the Lava Tab S91 following its release instruc
 
 [github.com/mitschud/DirtyFrag/releases](https://github.com/mitschud/DirtyFrag/releases)
 
-If DirtyFrag does not work on your firmware build, use **KernelSU** instead:
+Run the exploit and **wait** for it to open KernelSU
 
 [github.com/tiann/KernelSU/releases](https://github.com/tiann/KernelSU/releases)
 
-Once either tool grants root, confirm it works inside Termux:
+Once done you will see a green banner with **Jailbreak Mode** in KernelSU, confirm it works inside Termux:
 
 ```bash
 su
@@ -357,7 +357,7 @@ Everything backed up during this process is saved here:
 └── accounts_de.db
 ```
 
-Keep this folder until the tablet is confirmed stable, then delete it.
+Keep this folder until the tablet is confirmed stable, then delete it alongwith above three apps if youre not familiar with superuser. 
 
 ---
 
